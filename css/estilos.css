@@ -1,15 +1,20 @@
-/* Estilos comunes. TODO: diseño y versión responsive */
+/* =========================================================
+   ESTILOS COMUNES (no tocar)
+   ========================================================= */
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; }
 nav { display: flex; gap: 1rem; padding: 1rem; }
 main { padding: 1rem; max-width: 1100px; margin: 0 auto; }
+img { max-width: 100%; }
 
-/* Móvil */
 @media (max-width: 600px) {
   nav { flex-direction: column; }
 }
 
-/* ===== index.html (Brian) ===== */
+
+/* =========================================================
+   ZONA DE BRIAN · index.html  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
 .inicio-intro {
   font-size: 1.1rem;
   line-height: 1.6;
@@ -17,7 +22,6 @@ main { padding: 1rem; max-width: 1100px; margin: 0 auto; }
 }
 
 .inicio-logo {
-  max-width: 100%;
   width: 600px;
   margin: 1.5rem 0;
   border-radius: 16px;
@@ -50,12 +54,12 @@ main { padding: 1rem; max-width: 1100px; margin: 0 auto; }
   color: #444;
 }
 
-@media (max-width: 600px) {
-  .inicio-datos { flex-direction: column; }
-  .inicio-dato h3 { font-size: 1.8rem; }
-}
+/* ----- fin de la zona de Brian · index.html ----- */
 
-/* ===== pagina2.html (Brian) ===== */
+
+/* =========================================================
+   ZONA DE BRIAN · pagina2.html  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
 .juegos-lista {
   display: flex;
   gap: 1rem;
@@ -91,6 +95,18 @@ main { padding: 1rem; max-width: 1100px; margin: 0 auto; }
   color: #555;
 }
 
-@media (max-width: 600px) {
-  .juegos-tarjeta { width: 100%; }
-}
+/* ----- fin de la zona de Brian · pagina2.html ----- */
+
+
+/* =========================================================
+   ZONA DE ALEJANDRO · pagina3.html  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
+
+/* ----- fin de la zona de Alejandro · pagina3.html ----- */
+
+
+/* =========================================================
+   ZONA DE ALEJANDRO · responsive  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
+
+/* ----- fin de la zona de Alejandro · responsive ----- */
