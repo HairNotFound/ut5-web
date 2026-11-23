@@ -1,10 +1,40 @@
-/* Estilos comunes. TODO: diseño y versión responsive */
+/* =========================================================
+   ESTILOS COMUNES (no tocar)
+   ========================================================= */
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; }
 nav { display: flex; gap: 1rem; padding: 1rem; }
 main { padding: 1rem; max-width: 1100px; margin: 0 auto; }
+img { max-width: 100%; }
 
-/* Móvil */
 @media (max-width: 600px) {
   nav { flex-direction: column; }
 }
+
+
+/* =========================================================
+   ZONA DE BRIAN · index.html  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
+
+/* ----- fin de la zona de Brian · index.html ----- */
+
+
+/* =========================================================
+   ZONA DE BRIAN · pagina2.html  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
+
+/* ----- fin de la zona de Brian · pagina2.html ----- */
+
+
+/* =========================================================
+   ZONA DE ALEJANDRO · pagina3.html  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
+
+/* ----- fin de la zona de Alejandro · pagina3.html ----- */
+
+
+/* =========================================================
+   ZONA DE ALEJANDRO · responsive  (escribe SOLO entre estas dos líneas)
+   ========================================================= */
+
+/* ----- fin de la zona de Alejandro · responsive ----- */
