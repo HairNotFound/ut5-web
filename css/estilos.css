@@ -8,3 +8,49 @@ main { padding: 1rem; max-width: 1100px; margin: 0 auto; }
 @media (max-width: 600px) {
   nav { flex-direction: column; }
 }
+
+/* ===== index.html (Brian) ===== */
+.inicio-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 750px;
+}
+
+.inicio-logo {
+  max-width: 100%;
+  width: 600px;
+  margin: 1.5rem 0;
+  border-radius: 16px;
+}
+
+.inicio-datos {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.inicio-dato {
+  flex: 1 1 200px;
+  background: #e8f1fd;
+  border-top: 4px solid #1e88e5;
+  padding: 1.25rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.inicio-dato h3 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #0b3d91;
+}
+
+.inicio-dato p {
+  margin: .25rem 0 0;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  .inicio-datos { flex-direction: column; }
+  .inicio-dato h3 { font-size: 1.8rem; }
+}
