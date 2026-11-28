@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página 3</title>
+  <title>Nuestro equipo</title>
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -15,8 +15,55 @@
     </nav>
   </header>
   <main>
-    <h1>Página 3</h1>
-    <!-- TODO: contenido de la página -->
+    <h1>Nuestro equipo</h1>
+    <p class="equipo-intro">Somos el equipo que organiza la Liga de Videojuegos Canaria. Cada uno se encarga
+       de una parte: los programas, la base de datos de juegos y esta web.</p>
+
+    <div class="equipo-lista">
+      <div class="equipo-miembro">
+        <h3>José</h3>
+        <p>Jefe de proyecto</p>
+      </div>
+      <div class="equipo-miembro">
+        <h3>Andrew</h3>
+        <p>Programación y subconsultas</p>
+      </div>
+      <div class="equipo-miembro">
+        <h3>Carlo</h3>
+        <p>Programación y consultas</p>
+      </div>
+      <div class="equipo-miembro">
+        <h3>Alejandro</h3>
+        <p>Programación y diseño web</p>
+      </div>
+      <div class="equipo-miembro">
+        <h3>Brian</h3>
+        <p>Programación y diseño web</p>
+      </div>
+    </div>
+
+    <h2>Inscríbete en la liga</h2>
+    <form class="equipo-form">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" required>
+
+      <label for="correo">Correo</label>
+      <input id="correo" type="email" required>
+
+      <label for="isla">Isla</label>
+      <select id="isla">
+        <option>Lanzarote</option>
+        <option>Fuerteventura</option>
+        <option>Gran Canaria</option>
+        <option>Tenerife</option>
+        <option>La Gomera</option>
+        <option>La Palma</option>
+        <option>El Hierro</option>
+        <option>La Graciosa</option>
+      </select>
+
+      <button type="submit">Inscribirme</button>
+    </form>
   </main>
   <footer>
     <p>Liga de Videojuegos Canaria · UT5 PR05 · Equipo HairNotFound</p>
