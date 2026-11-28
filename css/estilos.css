@@ -183,5 +183,24 @@ img { max-width: 100%; }
 /* =========================================================
    ZONA DE ALEJANDRO · responsive  (escribe SOLO entre estas dos líneas)
    ========================================================= */
+/* ===== Responsive tablet (Alejandro) ===== */
+@media (max-width: 900px) {
+  main { padding: .75rem; }
+  h1 { font-size: 1.8rem; }
+  .juegos-tarjeta { width: calc(50% - .5rem); }
+}
+
+/* ===== Responsive móvil (Alejandro) ===== */
+@media (max-width: 600px) {
+  main { padding: .5rem; }
+  h1 { font-size: 1.5rem; }
+  .inicio-datos,
+  .juegos-lista,
+  .equipo-lista { flex-direction: column; }
+  .inicio-dato,
+  .equipo-miembro { flex: none; }
+  .juegos-tarjeta { width: 100%; }
+  .equipo-form { max-width: 100%; }
+}
 
 /* ----- fin de la zona de Alejandro · responsive ----- */
