@@ -106,6 +106,76 @@ img { max-width: 100%; }
 /* =========================================================
    ZONA DE ALEJANDRO · pagina3.html  (escribe SOLO entre estas dos líneas)
    ========================================================= */
+.equipo-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 750px;
+}
+
+.equipo-lista {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2rem;
+}
+
+.equipo-miembro {
+  flex: 1 1 180px;
+  background: #e8f1fd;
+  border-top: 4px solid #1e88e5;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.equipo-miembro h3 {
+  margin: 0;
+  color: #0b3d91;
+}
+
+.equipo-miembro p {
+  margin: .25rem 0 0;
+  color: #444;
+}
+
+.equipo-form {
+  max-width: 420px;
+  background: #f5f6f8;
+  padding: 1.25rem;
+  border-radius: 12px;
+}
+
+.equipo-form label {
+  display: block;
+  margin: .75rem 0 .25rem;
+  font-weight: 600;
+}
+
+.equipo-form input,
+.equipo-form select {
+  display: block;
+  width: 100%;
+  padding: .6rem;
+  border: 1px solid #c5cbd3;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.equipo-form button {
+  margin-top: 1rem;
+  padding: .7rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  background: #1e88e5;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.equipo-form button:hover {
+  background: #0b3d91;
+}
 
 /* ----- fin de la zona de Alejandro · pagina3.html ----- */
 
@@ -113,5 +183,24 @@ img { max-width: 100%; }
 /* =========================================================
    ZONA DE ALEJANDRO · responsive  (escribe SOLO entre estas dos líneas)
    ========================================================= */
+/* ===== Responsive tablet (Alejandro) ===== */
+@media (max-width: 900px) {
+  main { padding: .75rem; }
+  h1 { font-size: 1.8rem; }
+  .juegos-tarjeta { width: calc(50% - .5rem); }
+}
+
+/* ===== Responsive móvil (Alejandro) ===== */
+@media (max-width: 600px) {
+  main { padding: .5rem; }
+  h1 { font-size: 1.5rem; }
+  .inicio-datos,
+  .juegos-lista,
+  .equipo-lista { flex-direction: column; }
+  .inicio-dato,
+  .equipo-miembro { flex: none; }
+  .juegos-tarjeta { width: 100%; }
+  .equipo-form { max-width: 100%; }
+}
 
 /* ----- fin de la zona de Alejandro · responsive ----- */
